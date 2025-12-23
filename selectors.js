@@ -1,4 +1,4 @@
-const {log}=console;
+//SELECTORS
 //GETELEMENTBYCLASSNAME
 //works as an array
 // let hello=document.getElementsByClassName("classname");
@@ -178,3 +178,31 @@ const {log}=console;
 
 
 //select all input fields
+// let text=document.querySelectorAll("input");
+// text.forEach(input=>{
+//     input.style.border="2px solid";
+// });
+
+
+//select using attribute selectors
+// let text=document.querySelectorAll('input[type="text"]');
+// text.forEach(h=>{
+//     h.style.border="2px solid";
+// })
+
+
+//add click event to multiple buttons
+// let text=document.querySelectorAll("button");
+// text.forEach(h=>{
+//     h.addEventListener("click",()=>{
+//         alert("button clicked!");
+//     });
+// });
+
+
+//change text of all list items
+// let text=document.querySelectorAll("h1");
+// text.forEach(h=>{
+//     // h.innerText="hemanth";
+//     h.textContent="hemanth";
+// });
