@@ -54,6 +54,168 @@
 
 
 //get href attribute from link
-let text=document.getElementById("link");
-let teext=text.getAttribute("href");
-comsole.log(teext);
+// let text=document.getElementById("link");
+// let teext=text.getAttribute("href");
+// console.log(teext);
+
+
+//get src attribute from image
+// let text1=document.getElementById("image");
+// let text2=text1.getAttribute("src");
+// console.log(text2);
+
+
+//get type attribute from input
+// let text=document.getElementById("password");
+// let text2=text.getAttribute("type");
+// console.log(text2);
+
+
+//get style attribute
+// let text=document.getElementById("hemanth");
+// let text1=text.getAttribute("style");
+// console.log(text1);
+
+
+//get custom data attribute
+// let text=document.getElementById("button");
+// let text1=text.getAttribute("user");
+// console.log(text1);
+
+
+//check if attribute exists
+// let text=document.getElementById("password");
+// let text1=text.getAttribute("hello");
+// console.log(text1);
+
+
+//HAS ATTRIBUTE(ATTRIBUTE NAME)
+//check if id attribute exists
+// let text=document.getElementById("hello");
+// console.log(text.hasAttribute("id"));
+
+
+//check if class attribute exists
+// let text=document.getElementById("hello");
+// console.log(text.hasAttribute("class"));
+
+
+//check if href attribute exists
+// let text=document.getElementById("link");
+// console.log(text.hasAttribute("href"));
+
+
+//check src attribute in image
+// let text=document.getElementById("image");
+// console.log(text.hasAttribute("src"));
+
+
+//check user attribute in button
+// let text=document.getElementById("button");
+// console.log(text.hasAttribute("user"));
+
+
+//check hello attribute in input
+// let text=document.getElementById("password");
+// console.log(text.hasAttribute("hello"));
+
+
+//REMOVE ATTRIBUTE(ATTRIBUTE NAME)
+//remove class attribute
+// let text=document.getElementById("hello");
+// text.removeAttribute("class");
+
+
+//remove id attribute
+// let text=document.getElementById("hello");
+// text.removeAttribute("id");
+
+
+//remove href from a link
+// let text=document.getElementById("link");
+// text.removeAttribute("href");
+
+
+//remove src from image
+// let text=document.getElementById("image");
+// text.removeAttribute("src");
+
+
+//enable a disabled button
+// let text=document.getElementById("button");
+// text.removeAttribute("disabled");
+
+
+//remove required from input
+// let text=document.getElementById("password");
+// text.removeAttribute("required");
+
+
+//remove inline style
+// let text=document.getElementById("hemanth");
+// text.removeAttribute("style");
+
+
+//CLASS LIST
+//1.ADD(CLASS NAME)
+//add single class
+// let text=document.getElementById("myimg");
+// text.classList.add("img");
+
+
+//add multiple class names
+// let text=document.getElementById("myimg");
+// text.classList.add("class1","class2","class3");
+
+
+//add class on button click
+// function changecolor(){
+//     let text=document.getElementById("para");
+//     text.classList.add("red");
+// }
+
+
+//add class to an image
+// let text=document.getElementById("myimg");
+// text.classList.add("classname");
+
+
+//add class for validation
+// let text=document.getElementById("email");
+// text.classList.add("email");
+
+
+//add class after checking condition
+// let age=20;
+// let text=document.getElementById("hello");
+// if(age>18){
+//     text.classList.add("success");
+// }
+
+
+//add class to many elements
+// let text=document.querySelectorAll(".para");
+// text.forEach(para=>{
+//     para.classList.add("classname");
+// });
+
+
+//REMOVE(CLASSNAME)
+//remove a single class
+// let text=document.getElementById("hello");
+// text.classList.remove("classname");
+
+
+//remove multiple classes
+// let text=document.getElementById("hello");
+// text.classList.remove("classname","classname1","classname3");
+
+
+//remove class on button click
+// let text=document.getElementById("btn");
+// text.classList.remove("button");
+
+
+//remove class from image
+// let text=document.getElementById("image");
+// text.classList.remove("hello");
