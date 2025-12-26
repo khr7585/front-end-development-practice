@@ -219,3 +219,126 @@
 //remove class from image
 // let text=document.getElementById("image");
 // text.classList.remove("hello");
+
+
+//remove error class after validation
+// let text=document.getElementById("mail");
+// if(mail.value!==""){
+//     text.classList.remove("error");
+// }
+
+
+//remove class using condition
+// let age=20;
+// let text=document.getElementById("hello");
+// if(age>18){
+//     text.classList.remove("classname");
+// }
+
+
+//remove class multiple elements
+// let text=document.querySelectorAll(".para");
+// text.forEach(para=>{
+//     para.classList.remove("graph");
+// });
+
+
+//TOGGLE(CLASSNAME)
+//toggle class on button click
+// function togglecolor(){
+//     let text=document.getElementById("toggle");
+//     text.classList.toggle("redetext");
+// }
+
+
+//toggle darkmode
+// function togglecolor(){
+//     document.body.classList.toggle("dark");
+// }
+
+
+//toggle class for show/hide
+// function togglecolor(){
+//     let text=document.getElementById("box");
+//     text.classList.toggle("hide");
+// }
+
+
+//toggle class for image effect
+// let text=document.getElementById("image");
+// text.onclick=function(){
+//     text.classList.toggle("hello");
+// }
+
+
+//toggle active class in menu
+// let text=document.getElementById("button");
+// text.addEventListener("click",()=>{
+//     text.classList.toggle("active");
+// });
+
+
+//toggle class with condition
+// let text=document.getElementById("hello");
+// text.classList.toggle("classname",true);
+// text.classList.toggle("clasnname",false);
+
+
+
+//CONTAINS(CLASSNAME)
+//check if class exists
+// let text=document.getElementById("hello");
+// console.log(text.classList.contains("classname"));
+
+
+//use contains() with if condition
+// let text=document.getElementById("box");
+// if(text.classList.contains("hide")){
+//     console.log("box is hide");
+// }
+
+
+//prevent adding duplicate class
+// let text=document.getElementById("myimg");
+// if(!text.classList.contains("class")){
+//     text.classList.add("class");
+// }
+
+
+//check before removing class
+// let text=document.getElementById("hello");
+// if(text.classList.contains("classname")){
+//     text.classList.remove("classname");
+// }
+
+
+//toggle using contains
+// function togglecolor(){
+//     let text=document.getElementById("box");
+//     if(text.classList.contains("hide")){
+//         text.classList.remove("hide");
+//     }
+//     else{
+//         text.classList.add("hide");
+//     }
+// }
+
+
+//check active menu item
+// let text=document.getElementById("button");
+// if(text.classList.contains("active")){
+//     console.log("menu is active");
+// }else{
+//     console.log("menu is not active");
+// }
+
+
+//check class on multiple elements
+// let text=document.querySelectorAll(".para");
+// text.forEach(para=>{
+//     if(para.classList.contains("active")){
+//         console.log("active para");
+//     }else{
+//         console.log("not active");
+//     }
+// });
