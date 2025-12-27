@@ -153,4 +153,30 @@
 
 
 //remove element on button click
-let 
+// let text=document.getElementById("btn");
+// let text1=document.getElementById("div");
+// text.onclick=function(){
+//     text1.remove();
+// }
+
+
+//remove last child
+// let text=document.getElementById("div");
+// text.lastElementChild.remove();
+
+
+//removed selected list item
+// document.querySelector(".item").remove();
+
+
+//remove element using event
+// document.getElementById("all").addEventListener("click",function(){
+//     this.remove();
+// });
+
+
+//remove multiple elements
+// let text=document.querySelectorAll(".item");
+// text.forEach(h=>{
+//     h.remove();
+// });
